@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto";
+  color: #757575;
+  line-height: 3;
+  background-color: #f1f1f1;
+}
+
+.container {
+  min-width: 600px;
+  max-width: 1200px;
+
+  height: 100%;
+  display: flex;
+  margin: 10px auto;
+}
+
+.container .left {
+  min-width: 300px;
+  max-width: 30%;
+  border-radius: 2px;
+  padding: 20px;
+  display: block;
+  border: 1px solid #ebebeb;
+  box-shadow: 2px 2px #ebebeb;
+  background-color: #fff;
+  height: fit-content;
+}
+
+i {
+  color: #009688;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li i {
+  margin-right: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  background-color: #009688;
+  color: #009688;
+  height: 2px;
+  border: none;
+  border-radius: 6px;
+}
+
+.avatar {
+  position: relative;
+}
+
+.name {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  width: 100%;
+  color: #fff;
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+.info {
+  margin: 0px 0 20px 0;
+}
+
+.skills {
+  margin: 20px 0 20px 0;
+}
+
+.languages {
+  margin: 20px 0 0px 0;
+}
+
+.full {
+  width: 100%;
+  height: 20px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+.f70 {
+  background-color: #009688;
+  width: 70%;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.f80 {
+  background-color: #009688;
+  width: 80%;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.f100 {
+  background-color: #009688;
+  width: 100%;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.container .right {
+  min-width: 300px;
+  max-width: 70%;
+
+  /* background-color: #fff; */
+  height: fit-content;
+}
+
+#current {
+  color: #fff;
+  background-color: #009688;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+p {
+  color: #000;
+}
+
+i {
+  margin-right: 10px;
+}
+
+#main-color {
+  color: #009688;
+}
+
+#hide {
+  opacity: 0%;
+}
+
+.work {
+  background-color: #fff;
+  margin-left: 10px;
+  border-radius: 2px;
+  padding: 20px;
+  display: block;
+  border: 1px solid #ebebeb;
+  box-shadow: 2px 2px #ebebeb;
+}
+
+.edu {
+  margin-top: 10px;
+  background-color: #fff;
+  margin-left: 10px;
+  border-radius: 2px;
+  padding: 20px;
+  display: block;
+  border: 1px solid #ebebeb;
+  box-shadow: 2px 2px #ebebeb;
+}
+
+.footer {
+  /* height: 100px; */
+  max-width: 100%;
+  background-color: #009688;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.media {
+  color: white;
+  font-size: 30px;
+}
+
+#menu ul li {
+  display: inline;
+}
+
+h1 {
+  font-weight: 500;
+}
